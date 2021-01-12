@@ -1,7 +1,7 @@
 {
     "name": "georgelemon/lowless",
     "description": "The application template of the Lowless framework.",
-    "type": "package",
+    "type": "project",
     "license": "MIT",
     "authors": [
         {
@@ -24,12 +24,12 @@
         "psr-4": {
             "App\\": "app/",
             "Ethos\\Dessert\\": "vendor/georgelemon/dessert/src/",
-            "Low\\": "vendor/georgelemon/low/src/"
+            "Low\\": "vendor/georgelemon/lowless/src/"
         },
         "files":[
-            "vendor/georgelemon/low/src/helper.php",
+            "vendor/georgelemon/lowless/src/helper.php",
             "app/helper.php",
-            "vendor/georgelemon/low/src/bootstrap.php"
+            "vendor/georgelemon/lowless/src/bootstrap.php"
         ]
     }
 }
