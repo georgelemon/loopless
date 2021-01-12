@@ -33,4 +33,14 @@ return [
      */
     'date_format' => env('DATE_FORMAT', 'l jS \of F Y h:i:s A'),
 
+    /**
+     * Appearance Settings
+     */
+    'theme_settings' => [
+        /**
+         * The name of the theme based on its directory name (lowercase).
+         * @var string (Default theme is twentytwentyone)
+         */
+        'name' => 'twentytwentyone'
+    ]
 ];
