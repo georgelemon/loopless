@@ -9,7 +9,7 @@
             "email": "hi@georgelemon.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "php": "^7.4|^8.0",
         "symfony/http-foundation": "^5.2@dev",
