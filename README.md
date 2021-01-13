@@ -3,10 +3,23 @@
 ## Loopless
 **A minimal PHP framework for developing front-end web applications.** Loopless main scope is to be an API addicted and stay wired to your whatever backend apps (one or more), but it can be also used as a static & standalone app (see WikiPeep project).
 
-Out of the box, Loopless comes with a MVC structure (without a database setup), a simple Router with dependency injection support, a Configuration Array in Laravel style and that's it. It is highly recommended for creating front-end apps, small to medium websites. Fully OOP, with Composer support - all you need is creativity. 🤪
+Out of the box, Loopless comes with a MVC structure (without a database setup), a simple Router with dependency injection support, Response & Request handler, a Configuration Array in Laravel style and that's it! Ah, and of course comes with GuzzleHttp Support so in case you get it via composer you can make API connections easily.
+
+It is highly recommended for creating front-end apps, small to medium websites.<br>
+Fully Object Oriented, with Composer support - all you need is creativity. 🤪
+
 
 ### Roadmap
-...
+- [x] SVG Icon renderer via XML with Dessert Library
+- [x] Make Github Template with the Application structure
+- [x] Separate Application from Loopless Core
+- [x] Response / Request handler based on Symfony Http Foundation
+- [x] Session Storage via Symfony Http Foundation
+- [x] Simple Router (based on Bramus Router) with some modifications so it can resolve Depdendency Injections.
+- [x] Theme support
+- [x] Coding HTML from PHP with Emmet syntax to keep things minimal
+- [ ] Guzzle Client Support
+- [ ] Add personal projects made with Loopless (almost there)
 
 ### Projects made w/ Loopless
 If you made something cool with Loopless, let me know by creating an issue and I will put it here!
