@@ -1,7 +1,7 @@
 ![Loopless Micro App Framework](.github/loopless-cover.png)
 
 ## Loopless
-**A minimal PHP framework for developing front-end web applications.** Loopless main scope is to be an API addicted and stay wired to your whatever backend apps (one or more), but it can be also used as a static & standalone app (see WikiPeep project).
+**A minimal PHP framework for developing front-end web applications without being attached to a backend**. Loopless main scope is to be an API consumer and to stay wired to your whatever backend apps (one or more) with the possibility of caching results for later use. But it can be also used as a static & standalone app (see WikiPeep project).
 
 Out of the box, Loopless comes with a MVC structure (without a database setup), a simple Router with dependency injection support, Response & Request handler, a Configuration Array in Laravel style and that's it! Ah, and of course comes with GuzzleHttp Support so in case you get it via composer you can make API connections easily.
 
