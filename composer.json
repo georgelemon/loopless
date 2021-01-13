@@ -12,7 +12,7 @@
     "minimum-stability": "stable",
     "require": {
         "php": "^7.4|^8.0",
-        "georgelemon/loopless-framework": "dev-main",
+        "georgelemon/loopless-framework": "dev-main"
     },
     "autoload": {
         "psr-4": {
