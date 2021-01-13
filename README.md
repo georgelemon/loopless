@@ -1,5 +1,5 @@
 ## Loopless
-**A minimal PHP framework for developing front-end web applications.** Loopless main scope is to be an API addicted and stay wired to your whatever backend apps (one or more).
+**A minimal PHP framework for developing front-end web applications.** Loopless main scope is to be an API addicted and stay wired to your whatever backend apps (one or more), but it can be also used as a static & standalone app (see WikiPeep project).
 
 ### Roadmap
 ...
