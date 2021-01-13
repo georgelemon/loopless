@@ -6,5 +6,13 @@ use Loopless\Kernel\Application as LowApplication;
 
 class Application extends LowApplication
 {
-    // things you may want to extend from Loopless Application
+    /**
+     * Application services that gets called on boot.
+     * 
+     * @return void
+     */
+    protected function bootApplicationServices()
+    {
+        // your stuff
+    }
 }
