@@ -2,10 +2,10 @@
 
 namespace App\Controller;
 
-class WelcomeController
+class WelcomeController extends BaseController
 {
     public function index()
     {
-        return 'oooy!';
+        return response('Thanks for developing with Loopless framework');
     }
 }

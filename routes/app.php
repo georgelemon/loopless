@@ -1,5 +1,3 @@
 <?php
 
-route()->get('/', function(){
-    return response('202');
-});
+route()->get('/', 'App\Controller\WelcomeController@index');
