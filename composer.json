@@ -1,18 +1,18 @@
 {
     "name": "georgelemon/loopless",
-    "description": "The application template of the Lowless framework.",
+    "description": "The application template of Loopless micro framework.",
     "type": "project",
     "license": "MIT",
     "authors": [
         {
             "name": "George Lemon",
-            "email": "hi@georgelemon.com"
+            "email": "georgelemon@protonmail.com"
         }
     ],
     "minimum-stability": "dev",
     "require": {
         "php": "^7.4|^8.0",
-        "georgelemon/loopless-framework": "dev-main"
+        "georgelemon/loopless-framework": "^0.0.1"
     },
     "autoload": {
         "psr-4": {
